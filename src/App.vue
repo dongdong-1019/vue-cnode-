@@ -20,8 +20,25 @@ export default {
 </script>
 
 <style>
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 .main{
-  width: 80%;
-  margin: 0 auto;
+  width: 90%;
+  max-width: 1400px;
+  min-width: 960px;
+  margin: 15px auto;
+  
+}
+.app{
+  background: #e1e1e1;
+  font-family: Helvetica Neue,Luxi Sans,DejaVu Sans,Tahoma,Hiragino Sans GB,STHeiti,sans-serif!important;
+}
+@media (max-width:979px){
+  main {
+    margin:20px auto;
+  }
 }
 </style>
